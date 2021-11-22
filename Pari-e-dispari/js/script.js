@@ -5,12 +5,12 @@
 // Dichiariamo chi ha vinto
 
 // Scelte utente
-let userEvenOrOdd = prompt ('Scegli pari o dispari');
-let userNumber = parseInt (prompt ('Scegli un numero da 1 a 5')) ;
+const userEvenOrOdd = prompt ('Scegli pari o dispari');
+const userNumber = parseInt (prompt ('Scegli un numero da 1 a 5')) ;
 console.log(userNumber);
 
 // Genero numero per PC richiamando la funzione
-let pcNumber = randomNumber();
+const pcNumber = randomNumber();
 console.log(pcNumber);
 
 // Sommo i numeri
